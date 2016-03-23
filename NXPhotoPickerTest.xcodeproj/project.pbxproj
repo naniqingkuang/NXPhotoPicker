@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7DE8DAB21CA23DB100F87100 /* NXPhotoPickerGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE8DAB11CA23DB100F87100 /* NXPhotoPickerGroupViewController.m */; };
+		7DE8DAB61CA23F3200F87100 /* NXPhotoPickerGroupTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE8DAB41CA23F3200F87100 /* NXPhotoPickerGroupTableViewCell.m */; };
+		7DE8DAB71CA23F3200F87100 /* NXPhotoPickerGroupTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DE8DAB51CA23F3200F87100 /* NXPhotoPickerGroupTableViewCell.xib */; };
+		ED4CDD1C1CA0F1BF00A42935 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4CDD1B1CA0F1BF00A42935 /* main.m */; };
+		ED4CDD1F1CA0F1BF00A42935 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4CDD1E1CA0F1BF00A42935 /* AppDelegate.m */; };
+		ED4CDD221CA0F1BF00A42935 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4CDD211CA0F1BF00A42935 /* ViewController.m */; };
+		ED4CDD251CA0F1BF00A42935 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED4CDD231CA0F1BF00A42935 /* Main.storyboard */; };
+		ED4CDD271CA0F1BF00A42935 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED4CDD261CA0F1BF00A42935 /* Assets.xcassets */; };
+		ED4CDD2A1CA0F1C000A42935 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED4CDD281CA0F1C000A42935 /* LaunchScreen.storyboard */; };
+		ED4CDD391CA0F50600A42935 /* NXPhotoPickerCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4CDD381CA0F50600A42935 /* NXPhotoPickerCollectionView.m */; };
+		ED4CDD411CA10B9000A42935 /* NXPhotoAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4CDD3C1CA10B9000A42935 /* NXPhotoAssets.m */; };
+		ED4CDD421CA10B9000A42935 /* NXPhotoPickerDatas.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4CDD3E1CA10B9000A42935 /* NXPhotoPickerDatas.m */; };
+		ED4CDD431CA10B9000A42935 /* NXPhotoPickerGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4CDD401CA10B9000A42935 /* NXPhotoPickerGroup.m */; };
+		ED4CDD491CA10F3500A42935 /* NXPhotoPickerImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4CDD471CA10F3500A42935 /* NXPhotoPickerImageView.m */; };
+		ED4CDD4C1CA10FE300A42935 /* NXPhotoPickerCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4CDD4B1CA10FE300A42935 /* NXPhotoPickerCollectionViewCell.m */; };
+		ED4CDD501CA12B4E00A42935 /* NXPhotoPickerAseetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4CDD4F1CA12B4E00A42935 /* NXPhotoPickerAseetViewController.m */; };
+		ED4CDD531CA12C6600A42935 /* NXPhotoPickerToolBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4CDD521CA12C6600A42935 /* NXPhotoPickerToolBarView.m */; };
+		ED4CDD571CA12EBD00A42935 /* NXPhotoPickerToolBarThumbCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4CDD551CA12EBD00A42935 /* NXPhotoPickerToolBarThumbCollectionViewCell.m */; };
+		ED4CDD581CA12EBD00A42935 /* NXPhotoPickerToolBarThumbCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED4CDD561CA12EBD00A42935 /* NXPhotoPickerToolBarThumbCollectionViewCell.xib */; };
+		ED4CDD5B1CA1437C00A42935 /* NXPhotoPickerFooterCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4CDD5A1CA1437C00A42935 /* NXPhotoPickerFooterCollectionReusableView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7DE8DAB01CA23DB100F87100 /* NXPhotoPickerGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXPhotoPickerGroupViewController.h; sourceTree = "<group>"; };
+		7DE8DAB11CA23DB100F87100 /* NXPhotoPickerGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXPhotoPickerGroupViewController.m; sourceTree = "<group>"; };
+		7DE8DAB31CA23F3200F87100 /* NXPhotoPickerGroupTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXPhotoPickerGroupTableViewCell.h; sourceTree = "<group>"; };
+		7DE8DAB41CA23F3200F87100 /* NXPhotoPickerGroupTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXPhotoPickerGroupTableViewCell.m; sourceTree = "<group>"; };
+		7DE8DAB51CA23F3200F87100 /* NXPhotoPickerGroupTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NXPhotoPickerGroupTableViewCell.xib; sourceTree = "<group>"; };
+		ED4CDD171CA0F1BF00A42935 /* NXPhotoPickerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NXPhotoPickerTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED4CDD1B1CA0F1BF00A42935 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED4CDD1D1CA0F1BF00A42935 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ED4CDD1E1CA0F1BF00A42935 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ED4CDD201CA0F1BF00A42935 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ED4CDD211CA0F1BF00A42935 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ED4CDD241CA0F1BF00A42935 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED4CDD261CA0F1BF00A42935 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED4CDD291CA0F1C000A42935 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED4CDD2B1CA0F1C000A42935 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED4CDD371CA0F50600A42935 /* NXPhotoPickerCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXPhotoPickerCollectionView.h; sourceTree = "<group>"; };
+		ED4CDD381CA0F50600A42935 /* NXPhotoPickerCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXPhotoPickerCollectionView.m; sourceTree = "<group>"; };
+		ED4CDD3B1CA10B9000A42935 /* NXPhotoAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXPhotoAssets.h; sourceTree = "<group>"; };
+		ED4CDD3C1CA10B9000A42935 /* NXPhotoAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXPhotoAssets.m; sourceTree = "<group>"; };
+		ED4CDD3D1CA10B9000A42935 /* NXPhotoPickerDatas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXPhotoPickerDatas.h; sourceTree = "<group>"; };
+		ED4CDD3E1CA10B9000A42935 /* NXPhotoPickerDatas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXPhotoPickerDatas.m; sourceTree = "<group>"; };
+		ED4CDD3F1CA10B9000A42935 /* NXPhotoPickerGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXPhotoPickerGroup.h; sourceTree = "<group>"; };
+		ED4CDD401CA10B9000A42935 /* NXPhotoPickerGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXPhotoPickerGroup.m; sourceTree = "<group>"; };
+		ED4CDD461CA10F3500A42935 /* NXPhotoPickerImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXPhotoPickerImageView.h; sourceTree = "<group>"; };
+		ED4CDD471CA10F3500A42935 /* NXPhotoPickerImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXPhotoPickerImageView.m; sourceTree = "<group>"; };
+		ED4CDD4A1CA10FE300A42935 /* NXPhotoPickerCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXPhotoPickerCollectionViewCell.h; sourceTree = "<group>"; };
+		ED4CDD4B1CA10FE300A42935 /* NXPhotoPickerCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXPhotoPickerCollectionViewCell.m; sourceTree = "<group>"; };
+		ED4CDD4E1CA12B4E00A42935 /* NXPhotoPickerAseetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXPhotoPickerAseetViewController.h; sourceTree = "<group>"; };
+		ED4CDD4F1CA12B4E00A42935 /* NXPhotoPickerAseetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXPhotoPickerAseetViewController.m; sourceTree = "<group>"; };
+		ED4CDD511CA12C6600A42935 /* NXPhotoPickerToolBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXPhotoPickerToolBarView.h; sourceTree = "<group>"; };
+		ED4CDD521CA12C6600A42935 /* NXPhotoPickerToolBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXPhotoPickerToolBarView.m; sourceTree = "<group>"; };
+		ED4CDD541CA12EBD00A42935 /* NXPhotoPickerToolBarThumbCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXPhotoPickerToolBarThumbCollectionViewCell.h; sourceTree = "<group>"; };
+		ED4CDD551CA12EBD00A42935 /* NXPhotoPickerToolBarThumbCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXPhotoPickerToolBarThumbCollectionViewCell.m; sourceTree = "<group>"; };
+		ED4CDD561CA12EBD00A42935 /* NXPhotoPickerToolBarThumbCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NXPhotoPickerToolBarThumbCollectionViewCell.xib; sourceTree = "<group>"; };
+		ED4CDD591CA1437C00A42935 /* NXPhotoPickerFooterCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXPhotoPickerFooterCollectionReusableView.h; sourceTree = "<group>"; };
+		ED4CDD5A1CA1437C00A42935 /* NXPhotoPickerFooterCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXPhotoPickerFooterCollectionReusableView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED4CDD141CA0F1BF00A42935 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED4CDD0E1CA0F1BF00A42935 = {
+			isa = PBXGroup;
+			children = (
+				ED4CDD191CA0F1BF00A42935 /* NXPhotoPickerTest */,
+				ED4CDD181CA0F1BF00A42935 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED4CDD181CA0F1BF00A42935 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED4CDD171CA0F1BF00A42935 /* NXPhotoPickerTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED4CDD191CA0F1BF00A42935 /* NXPhotoPickerTest */ = {
+			isa = PBXGroup;
+			children = (
+				ED4CDD321CA0F28100A42935 /* NXPhotoPicker */,
+				ED4CDD1D1CA0F1BF00A42935 /* AppDelegate.h */,
+				ED4CDD1E1CA0F1BF00A42935 /* AppDelegate.m */,
+				ED4CDD201CA0F1BF00A42935 /* ViewController.h */,
+				ED4CDD211CA0F1BF00A42935 /* ViewController.m */,
+				ED4CDD231CA0F1BF00A42935 /* Main.storyboard */,
+				ED4CDD261CA0F1BF00A42935 /* Assets.xcassets */,
+				ED4CDD281CA0F1C000A42935 /* LaunchScreen.storyboard */,
+				ED4CDD2B1CA0F1C000A42935 /* Info.plist */,
+				ED4CDD1A1CA0F1BF00A42935 /* Supporting Files */,
+			);
+			path = NXPhotoPickerTest;
+			sourceTree = "<group>";
+		};
+		ED4CDD1A1CA0F1BF00A42935 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED4CDD1B1CA0F1BF00A42935 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED4CDD321CA0F28100A42935 /* NXPhotoPicker */ = {
+			isa = PBXGroup;
+			children = (
+				ED4CDD4D1CA12B1400A42935 /* controller */,
+				ED4CDD3A1CA10B9000A42935 /* model */,
+				ED4CDD361CA0F50600A42935 /* view */,
+			);
+			path = NXPhotoPicker;
+			sourceTree = "<group>";
+		};
+		ED4CDD361CA0F50600A42935 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				ED4CDD4A1CA10FE300A42935 /* NXPhotoPickerCollectionViewCell.h */,
+				ED4CDD4B1CA10FE300A42935 /* NXPhotoPickerCollectionViewCell.m */,
+				ED4CDD461CA10F3500A42935 /* NXPhotoPickerImageView.h */,
+				ED4CDD471CA10F3500A42935 /* NXPhotoPickerImageView.m */,
+				ED4CDD371CA0F50600A42935 /* NXPhotoPickerCollectionView.h */,
+				ED4CDD381CA0F50600A42935 /* NXPhotoPickerCollectionView.m */,
+				ED4CDD511CA12C6600A42935 /* NXPhotoPickerToolBarView.h */,
+				ED4CDD521CA12C6600A42935 /* NXPhotoPickerToolBarView.m */,
+				ED4CDD541CA12EBD00A42935 /* NXPhotoPickerToolBarThumbCollectionViewCell.h */,
+				ED4CDD551CA12EBD00A42935 /* NXPhotoPickerToolBarThumbCollectionViewCell.m */,
+				ED4CDD561CA12EBD00A42935 /* NXPhotoPickerToolBarThumbCollectionViewCell.xib */,
+				ED4CDD591CA1437C00A42935 /* NXPhotoPickerFooterCollectionReusableView.h */,
+				ED4CDD5A1CA1437C00A42935 /* NXPhotoPickerFooterCollectionReusableView.m */,
+				7DE8DAB31CA23F3200F87100 /* NXPhotoPickerGroupTableViewCell.h */,
+				7DE8DAB41CA23F3200F87100 /* NXPhotoPickerGroupTableViewCell.m */,
+				7DE8DAB51CA23F3200F87100 /* NXPhotoPickerGroupTableViewCell.xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		ED4CDD3A1CA10B9000A42935 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				ED4CDD3B1CA10B9000A42935 /* NXPhotoAssets.h */,
+				ED4CDD3C1CA10B9000A42935 /* NXPhotoAssets.m */,
+				ED4CDD3D1CA10B9000A42935 /* NXPhotoPickerDatas.h */,
+				ED4CDD3E1CA10B9000A42935 /* NXPhotoPickerDatas.m */,
+				ED4CDD3F1CA10B9000A42935 /* NXPhotoPickerGroup.h */,
+				ED4CDD401CA10B9000A42935 /* NXPhotoPickerGroup.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		ED4CDD4D1CA12B1400A42935 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				7DE8DAB01CA23DB100F87100 /* NXPhotoPickerGroupViewController.h */,
+				7DE8DAB11CA23DB100F87100 /* NXPhotoPickerGroupViewController.m */,
+				ED4CDD4E1CA12B4E00A42935 /* NXPhotoPickerAseetViewController.h */,
+				ED4CDD4F1CA12B4E00A42935 /* NXPhotoPickerAseetViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED4CDD161CA0F1BF00A42935 /* NXPhotoPickerTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED4CDD2E1CA0F1C000A42935 /* Build configuration list for PBXNativeTarget "NXPhotoPickerTest" */;
+			buildPhases = (
+				ED4CDD131CA0F1BF00A42935 /* Sources */,
+				ED4CDD141CA0F1BF00A42935 /* Frameworks */,
+				ED4CDD151CA0F1BF00A42935 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NXPhotoPickerTest;
+			productName = NXPhotoPickerTest;
+			productReference = ED4CDD171CA0F1BF00A42935 /* NXPhotoPickerTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED4CDD0F1CA0F1BF00A42935 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = HZSD;
+				TargetAttributes = {
+					ED4CDD161CA0F1BF00A42935 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 395Q23NHPD;
+					};
+				};
+			};
+			buildConfigurationList = ED4CDD121CA0F1BF00A42935 /* Build configuration list for PBXProject "NXPhotoPickerTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED4CDD0E1CA0F1BF00A42935;
+			productRefGroup = ED4CDD181CA0F1BF00A42935 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED4CDD161CA0F1BF00A42935 /* NXPhotoPickerTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED4CDD151CA0F1BF00A42935 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DE8DAB71CA23F3200F87100 /* NXPhotoPickerGroupTableViewCell.xib in Resources */,
+				ED4CDD581CA12EBD00A42935 /* NXPhotoPickerToolBarThumbCollectionViewCell.xib in Resources */,
+				ED4CDD2A1CA0F1C000A42935 /* LaunchScreen.storyboard in Resources */,
+				ED4CDD271CA0F1BF00A42935 /* Assets.xcassets in Resources */,
+				ED4CDD251CA0F1BF00A42935 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED4CDD131CA0F1BF00A42935 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED4CDD531CA12C6600A42935 /* NXPhotoPickerToolBarView.m in Sources */,
+				ED4CDD421CA10B9000A42935 /* NXPhotoPickerDatas.m in Sources */,
+				ED4CDD5B1CA1437C00A42935 /* NXPhotoPickerFooterCollectionReusableView.m in Sources */,
+				ED4CDD221CA0F1BF00A42935 /* ViewController.m in Sources */,
+				ED4CDD391CA0F50600A42935 /* NXPhotoPickerCollectionView.m in Sources */,
+				7DE8DAB21CA23DB100F87100 /* NXPhotoPickerGroupViewController.m in Sources */,
+				ED4CDD571CA12EBD00A42935 /* NXPhotoPickerToolBarThumbCollectionViewCell.m in Sources */,
+				ED4CDD491CA10F3500A42935 /* NXPhotoPickerImageView.m in Sources */,
+				ED4CDD431CA10B9000A42935 /* NXPhotoPickerGroup.m in Sources */,
+				ED4CDD411CA10B9000A42935 /* NXPhotoAssets.m in Sources */,
+				ED4CDD1F1CA0F1BF00A42935 /* AppDelegate.m in Sources */,
+				ED4CDD4C1CA10FE300A42935 /* NXPhotoPickerCollectionViewCell.m in Sources */,
+				ED4CDD1C1CA0F1BF00A42935 /* main.m in Sources */,
+				7DE8DAB61CA23F3200F87100 /* NXPhotoPickerGroupTableViewCell.m in Sources */,
+				ED4CDD501CA12B4E00A42935 /* NXPhotoPickerAseetViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ED4CDD231CA0F1BF00A42935 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED4CDD241CA0F1BF00A42935 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED4CDD281CA0F1C000A42935 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED4CDD291CA0F1C000A42935 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED4CDD2C1CA0F1C000A42935 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ED4CDD2D1CA0F1C000A42935 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED4CDD2F1CA0F1C000A42935 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = NXPhotoPickerTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ABEI.NXPhotoPickerTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		ED4CDD301CA0F1C000A42935 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = NXPhotoPickerTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ABEI.NXPhotoPickerTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED4CDD121CA0F1BF00A42935 /* Build configuration list for PBXProject "NXPhotoPickerTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED4CDD2C1CA0F1C000A42935 /* Debug */,
+				ED4CDD2D1CA0F1C000A42935 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED4CDD2E1CA0F1C000A42935 /* Build configuration list for PBXNativeTarget "NXPhotoPickerTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED4CDD2F1CA0F1C000A42935 /* Debug */,
+				ED4CDD301CA0F1C000A42935 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED4CDD0F1CA0F1BF00A42935 /* Project object */;
+}
